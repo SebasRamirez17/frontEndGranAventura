@@ -3,6 +3,7 @@ import { Home } from '../src/components/pages/Home/Home';
 import { Login } from './components/pages/Login/Login.jsx';
 import { Routes, Route} from 'react-router-dom'
 import { Header } from '../../granaventura/src/components/layouts/Header/Header'
+import { Contenido } from '../src/components/pages/Contenido/Contenido'
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/' element={<Home/>}/>
         <Route path='/Login' element={<Login/>}/>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/Contenido' element={<Contenido/>}/>
       </Routes>
     </div>
   );

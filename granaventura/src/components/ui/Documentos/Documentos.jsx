@@ -14,7 +14,6 @@ export const Documentos = () => {
             <hr className='barrita'/>
             <button className='descarga'> Descargar </button>
         </div>
-
     </div>
   )
 }
